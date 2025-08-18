@@ -1,1 +1,1 @@
-test
+This repository is my way of keeping track my coding journey, starting with C++. This is also a way for me to learn git and by extension, Github. I hope that this journey goes well for me, but we shall see. 👍
