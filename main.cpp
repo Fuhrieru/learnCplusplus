@@ -1,14 +1,20 @@
 #include <iostream>
-//Ask the user to enter three values and print those values in a sentence
-int main() {
-    std::cout << "Enter three numbers seperated by a space: \n";
+//lesson 1.11
+//Learning basic programs
 
-    int x {};
-    int y {};
-    int z {};
+int main()
+{
+    std::cout << "Enter an integer: ";
+    int num0 {};
+    std::cin >> num0;
 
-    std::cin >> x >> y >> z;
+    int num1{};
+    std::cout << "Enter a second integer: ";
+    std::cin >> num1;
 
-   std::cout << "You entered " << x  << ", " << y << ", and " << z << "\n";
+    //do the resulting operators
+    std::cout << num0 << " + " << num1 << " is " << num0 + num1 << ".\n";
+    std::cout << num0 << " - " << num1 << " is " << num0 - num1 << ".\n";
+
     return 0;
 }
